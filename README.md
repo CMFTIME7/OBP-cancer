@@ -20,3 +20,46 @@ This repository includes code and data for:
 
 ## 📁 Repository Structure
 
+OBP-cancer/
+├── data/ # Processed input data from TCGA (SNV, CNA, RNA)
+├── scripts/ # Analysis scripts in R
+│ ├── preprocessing/
+│ ├── gsea/
+│ ├── visualization/
+├── results/ # Output plots, tables, and figures
+├── notebooks/ # Optional Jupyter/Rmarkdown exploratory analysis
+├── docs/ # Documentation (setup, methods)
+├── .github/ # GitHub-specific templates
+│ └── ISSUE_TEMPLATE.md
+├── LICENSE
+├── README.md
+└── CITATION.cff
+
+
+---
+
+## 🧰 Requirements
+
+- R ≥ 4.3.1
+- R packages: `tidyverse`, `clusterProfiler`, `fgsea`, `org.Hs.eg.db`, `ggplot2`, `data.table`, `ComplexHeatmap`
+- Optional: `Python ≥ 3.10` for cross-platform processing or plotting
+
+To install R packages:
+```r
+install.packages(c("tidyverse", "data.table", "ggplot2"))
+BiocManager::install(c("clusterProfiler", "fgsea", "org.Hs.eg.db", "ComplexHeatmap"))
+
+# Clone the repo
+git clone https://github.com/yourusername/OBP-cancer.git
+cd OBP-cancer
+
+# Run preprocessing
+Rscript scripts/preprocessing/load_and_merge_data.R
+
+# Run GSEA
+Rscript scripts/gsea/run_msigdb_enrichment.R
+
+# Generate plots
+Rscript scripts/visualization/plot_heatmaps.R
+
+
