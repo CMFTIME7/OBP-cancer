@@ -6,6 +6,9 @@ A computational and molecular analysis of OBP2A and OBP2B gene expression in can
 [![Data Source: TCGA](https://img.shields.io/badge/Data-TCGA-blue)](https://www.cancer.gov/tcga)
 [![R Version](https://img.shields.io/badge/R-4.3.1-blue)](https://cran.r-project.org/)
 
+## Acknowledge
+Thanks so much for Soufyan, Myhieon and Vojta helped with codes and analysis, appreciate Sanne for offer ideas and perspectives as well as feedbacks for project design. And would like to thank Ximeng Wang and Liu Yang for their contributions within their literature overview and M.Sc. research project, respectively. M.C. would like to thank the Giract Flavor research program for a first year PhD bursary (application round 2025). H.M. and M.C. would like to thank the Chinese Scholarship Council for funds (personal PhD grant M.C.) and the Giract Foundation for a 1st year PhD fellowship (personal grant M.C.). H.M. would like to acknowledge the NWO XXX. The authors acknowledge the SURFsara compute cluster hosted by SURF and the BAZIS research cluster hosted by VU for the computational time and the provided technical support.
+
 ---
 
 ## 🔬 Overview
