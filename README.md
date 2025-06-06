@@ -61,7 +61,10 @@ Rscript scripts/gsea/run_msigdb_enrichment.R
 
 # Generate plots
 Rscript scripts/visualization/plot_heatmaps.R
+```r
+
+<img width="845" alt="Screenshot 2025-02-19 at 15 30 51" src="https://github.com/user-attachments/assets/a4e0bb4f-cdf2-4da9-a3cc-393149140593" />
 
 
-<img width="845" alt="Screenshot 2025-02-19 at 15 30 51" src="https://github.com/user-attachments/assets/42d23a46-af01-4d45-91eb-6c881c61c708" />
+
 
