@@ -1,0 +1,47 @@
+```{r}
+# Load necessary library
+library(tibble)
+
+# File paths for the CSV files (replace with actual paths if necessary)
+adj_pvalue_file <- "padj_ovarian.csv"
+fc_file <- "fc_ovarian.csv"
+
+# Read the CSV files
+adj_p_values <- read.csv(adj_pvalue_file, row.names = 1, check.names = FALSE)
+fold_changes <- read.csv(fc_file, row.names = 1, check.names = FALSE)
+
+# Ensure both datasets have the same structure
+if (!all(colnames(adj_p_values) == colnames(fold_changes)) || !all(rownames(adj_p_values) == rownames(fold_changes))) {
+  stop("Row or column names do not match between adjusted p-values and fold changes")
+}
+
+# Define a function to calculate the ranked value: -log10(adj p-value) * sign(FC)
+calculate_ranked_value <- function(adj_p, fc) {
+  sign_fc <- sign(fc)  # Get the sign of the fold change
+  log_p <- -log10(adj_p)  # Calculate -log10 of the adjusted p-value
+  return(log_p * sign_fc)  # Multiply by the sign of the fold change
+}
+
+# Apply the calculate_ranked_value function element-wise using `mapply()`
+ranked_values <- mapply(calculate_ranked_value, adj_p_values, fold_changes)
+
+# Reshape the ranked values to maintain the original structure (matrix)
+ranked_values_matrix <- matrix(ranked_values, 
+                               nrow = nrow(adj_p_values), 
+                               ncol = ncol(adj_p_values), 
+                               dimnames = list(rownames(adj_p_values), colnames(adj_p_values)))
+
+# Convert the matrix to a data frame
+ranked_values_df <- as.data.frame(ranked_values_matrix)
+
+# Print the resulting ranked values
+print(ranked_values_df)
+
+# Save the result to a CSV file
+write.csv(ranked_values_df, "ovarian_ranked_values.csv", row.names = TRUE)
+
+```
+
+
+
+

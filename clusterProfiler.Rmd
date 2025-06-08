@@ -1,0 +1,97 @@
+```{r}
+# Install clusterProfiler if not already installed
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("clusterProfiler")
+
+# Load required libraries
+library(clusterProfiler)
+library(org.Hs.eg.db)  # Human gene annotation
+library(dplyr)         # For data manipulation
+
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("enrichplot")
+```
+
+```{r}
+# Read the CSV file containing the ranked gene list
+gene_list_data <- read.csv("ovarian_ranked_geneList.csv", header = TRUE)
+
+# Ensure the gene list has the correct structure
+head(gene_list_data)
+
+```
+
+```{r}
+# Assuming the columns are named 'gene_symbol' and 'ranking'
+geneList <- gene_list_data$Ranked_Value
+names(geneList) <- gene_list_data$Gene
+
+# Sort the gene list in decreasing order for GSEA
+geneList <- sort(geneList, decreasing = TRUE)
+
+```
+
+
+```{r}
+# Perform GSEA analysis
+gsea_result <- gseGO(
+    geneList = geneList,
+    OrgDb = org.Hs.eg.db,    # Human database
+    ont = "BP",              # Ontology, "BP" for biological processes
+    keyType = "SYMBOL",      # Use gene symbols
+    minGSSize = 10,          # Minimum size of each gene set for analyzing
+    maxGSSize = 500,         # Maximum size of each gene set for analyzing
+    pvalueCutoff = 0.05,     # Adjusted p-value cutoff
+    verbose = FALSE
+)
+
+# View the GSEA results
+head(gsea_result)
+
+```
+
+```{r}
+write.csv(gsea_result, "gsea_result.csv")
+```
+
+
+```{r}
+# Enrichment plot for a specific pathway (e.g., first in the result)
+enrichplot::gseaplot2(gsea_result, geneSetID = gsea_result$ID[1])
+
+library(ggplot2)
+library(enrichplot)
+
+
+# Dotplot for the top enriched terms
+dotplot(gsea_result, showCategory = 10) + ggtitle(" ovarian GSEA Dotplot")
+
+#1. Save GSEA plot as pdf
+# Open a PDF device to save the GSEA plot
+pdf("gsea_plot.pdf", width = 7, height = 7)
+
+# Generate the GSEA plot (using the first gene set as an example)
+enrichplot::gseaplot2(gsea_result, geneSetID = gsea_result$ID[1])
+
+# Close the PDF device
+dev.off()
+
+#2. Save dotplot as pdf
+# Open a PDF device to save the dotplot
+pdf("dotplot.pdf", width = 7, height = 7)
+
+# Generate the dotplot
+dotplot(gsea_result, showCategory = 10) + ggtitle("ovarian GSEA Dotplot")
+
+# Close the PDF device
+dev.off()
+
+
+```
+
+
+
+
