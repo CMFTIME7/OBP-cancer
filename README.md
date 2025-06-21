@@ -48,24 +48,28 @@ OBP-cancer/
 - Optional: `Python ≥ 3.10` for cross-platform processing or plotting
 
 To install R packages:
-
 ```r
 install.packages(c("tidyverse", "data.table", "ggplot2"))
 BiocManager::install(c("clusterProfiler", "fgsea", "org.Hs.eg.db", "ComplexHeatmap"))
 
 
-# Clone the repo
+Clone the repo
+```r
 git clone https://github.com/yourusername/OBP-cancer.git
 cd OBP-cancer
 
-# Run preprocessing
+Run preprocessing
+```r
 Rscript scripts/preprocessing/load_and_merge_data.R
 
-# Run GSEA
+Run GSEA
+```r
 Rscript scripts/gsea/run_msigdb_enrichment.R
 
-# Generate plots
+Generate plots
+```r
 Rscript scripts/visualization/plot_heatmaps.R
+
 ---
 ## 🧪 Chemical Sense Linked Figures Overview
 
