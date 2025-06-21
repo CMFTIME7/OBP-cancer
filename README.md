@@ -66,3 +66,16 @@ Rscript scripts/gsea/run_msigdb_enrichment.R
 Rscript scripts/visualization/plot_heatmaps.R
 ```r
 
+# Chemical Sense linked Figures Overview  
+
+## CIBRA  
+Description: This folder contains data related to the CIBRA analysis used in the thesis.  
+
+## DGE_analysis  
+Description: This folder includes the differential gene expression analysis results.  
+
+## boxplots  
+Description: This folder features boxplots visuals relevant to the thesis figures.  
+
+## oncoplots  
+Description: This folder contains oncoplots depicting mutations and their frequencies.
