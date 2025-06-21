@@ -65,6 +65,10 @@ Rscript scripts/gsea/run_msigdb_enrichment.R
 # Generate plots
 Rscript scripts/visualization/plot_heatmaps.R
 ```r
+
+
+---
+ 
 Chemical Sense linked Figures Overview
 CIBRA
 Description: This folder contains data related to the CIBRA analysis used in the thesis.
