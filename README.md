@@ -49,9 +49,10 @@ OBP-cancer/
 
 To install R packages:
 
-
+```r
 install.packages(c("tidyverse", "data.table", "ggplot2"))
 BiocManager::install(c("clusterProfiler", "fgsea", "org.Hs.eg.db", "ComplexHeatmap"))
+
 
 # Clone the repo
 git clone https://github.com/yourusername/OBP-cancer.git
