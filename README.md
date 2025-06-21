@@ -65,6 +65,7 @@ Rscript scripts/gsea/run_msigdb_enrichment.R
 # Generate plots
 Rscript scripts/visualization/plot_heatmaps.R
 
+---
 
 ## Chemical Sense linked Figures Overview
 
