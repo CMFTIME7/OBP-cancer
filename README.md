@@ -66,18 +66,26 @@ Rscript scripts/gsea/run_msigdb_enrichment.R
 Rscript scripts/visualization/plot_heatmaps.R
 ```r
 
+## Chemical Sense linked Figures Overview
+
+### CIBRA  
+Description:
+
+### DGE_analysis  
+Description:
+
+### boxplots  
+Description:
+
+### oncoplots  
+Description:
 
 ---
- 
-## Chemical Sense linked Figures Overview
-# CIBRA
-Description: This folder contains data related to the CIBRA analysis used in the thesis.
 
-# DGE_analysis
-Description: This folder includes the differential gene expression analysis results.
+## Installation & Execution Guide
 
-# boxplots
-Description: This folder features boxplots visuals relevant to the thesis figures.
+To install R packages:
 
-# oncoplots
-Description: This folder contains oncoplots depicting mutations and their frequencies.
+```r
+install.packages(c("tidyverse", "data.table", "ggplot2"))
+BiocManager::install(c("clusterProfiler", "fgsea", "org.Hs.eg.db", "ComplexHeatmap"))
