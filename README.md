@@ -65,7 +65,7 @@ Rscript scripts/gsea/run_msigdb_enrichment.R
 # Generate plots
 Rscript scripts/visualization/plot_heatmaps.R
 ```r
-
+```markdown
 # Chemical Sense linked Figures Overview  
 
 ## CIBRA  
@@ -79,3 +79,4 @@ Description: This folder features boxplots visuals relevant to the thesis figure
 
 ## oncoplots  
 Description: This folder contains oncoplots depicting mutations and their frequencies.
+```markdown
