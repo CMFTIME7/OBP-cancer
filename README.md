@@ -64,20 +64,19 @@ Rscript scripts/gsea/run_msigdb_enrichment.R
 
 # Generate plots
 Rscript scripts/visualization/plot_heatmaps.R
+```r
 
----
 
-## Chemical Sense linked Figures Overview
+🧪 Chemical Sense Linked Figures Overview
+CIBRA
 
-### CIBRA  
 Description:
+DGE_analysis
 
-### DGE_analysis  
 Description:
+boxplots
 
-### boxplots  
 Description:
+oncoplots
 
-### oncoplots  
 Description:
----
