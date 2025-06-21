@@ -48,6 +48,7 @@ OBP-cancer/
 - Optional: `Python ≥ 3.10` for cross-platform processing or plotting
 
 To install R packages:
+
 ```r
 install.packages(c("tidyverse", "data.table", "ggplot2"))
 BiocManager::install(c("clusterProfiler", "fgsea", "org.Hs.eg.db", "ComplexHeatmap"))
@@ -64,19 +65,23 @@ Rscript scripts/gsea/run_msigdb_enrichment.R
 
 # Generate plots
 Rscript scripts/visualization/plot_heatmaps.R
-```r
+---
+## 🧪 Chemical Sense Linked Figures Overview
 
+This section provides an overview of key figures generated from chemical sense-related data analysis, including CIBRA results, differential gene expression (DGE) analysis, and visual summaries using boxplots and oncoplots.
 
-🧪 Chemical Sense Linked Figures Overview
-CIBRA
+### 📊 CIBRA  
+Overview of binding predictions and receptor interactions using the CIBRA algorithm.  
+_Description: Add insights into the method or figure interpretation._
 
-Description:
-DGE_analysis
+### 🔬 DGE_analysis  
+Results of differential gene expression analysis across relevant tissue or cancer datasets.  
+_Description: Mention conditions compared, tools used, or notable genes._
 
-Description:
-boxplots
+### 📦 Boxplots  
+Visual summaries of expression levels or scores across sample groups.  
+_Description: Add which genes or metrics are being compared._
 
-Description:
-oncoplots
-
-Description:
+### 🧬 Oncoplots  
+Mutational landscape highlighting key genes across sample groups.  
+_Description: Describe dataset used and how OBPs or related genes appear in cancer profiles._
