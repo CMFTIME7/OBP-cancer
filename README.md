@@ -69,15 +69,15 @@ Rscript scripts/visualization/plot_heatmaps.R
 
 ---
  
-Chemical Sense linked Figures Overview
-CIBRA
+## Chemical Sense linked Figures Overview
+# CIBRA
 Description: This folder contains data related to the CIBRA analysis used in the thesis.
 
-DGE_analysis
+# DGE_analysis
 Description: This folder includes the differential gene expression analysis results.
 
-boxplots
+# boxplots
 Description: This folder features boxplots visuals relevant to the thesis figures.
 
-oncoplots
+# oncoplots
 Description: This folder contains oncoplots depicting mutations and their frequencies.
