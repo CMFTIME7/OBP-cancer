@@ -1,6 +1,6 @@
 # OBP-cancer
 
-A computational and molecular analysis of OBP2A and OBP2B gene expression in cancer, integrating TCGA datasets, mutation profiles, and gene set enrichment analysis (GSEA). This project investigates the functional relevance of odorant-binding proteins in oncology.
+A computational and molecular analysis of OBP2A and OBP2B gene and protein expression in cancer, integrating TCGA datasets, mutation profiles, and gene set enrichment analysis (GSEA). This project investigates the functional relevance of odorant-binding proteins in oncology.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Data Source: TCGA](https://img.shields.io/badge/Data-TCGA-blue)](https://www.cancer.gov/tcga)
