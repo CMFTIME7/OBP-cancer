@@ -24,7 +24,6 @@ OBP-cancer/
 ├── data/ # Processed input data from TCGA (SNV, CNA, RNA)
 ├── scripts/ # Analysis scripts in R
 │ ├── preprocessing/
-│ ├── gsea/
 │ ├── visualization/
 ├── results/ # Output plots, tables, and figures
 ├── notebooks/ # Optional Jupyter/Rmarkdown exploratory analysis
