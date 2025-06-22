@@ -23,8 +23,8 @@ This repository includes code and data for:
 OBP-cancer/
 ├── data/ # Processed input data from TCGA (SNV, CNA, RNA)
 ├── scripts/ # Analysis scripts in R
-│ ├── preprocessing/
 │ ├── visualization/
+│ ├── meta-analysis/
 ├── results/ # Output plots, tables, and figures
 ├── notebooks/ # Optional Jupyter/Rmarkdown exploratory analysis
 ├── docs/ # Documentation (setup, methods)
