@@ -11,7 +11,7 @@ A computational and molecular analysis of OBP2A and OBP2B gene and protein expre
 ## 🔬 Overview
 
 This repository includes code and data for:
-- Expression analysis of OBP2A and OBP2B genes across cancer types.
+- Expression analysis of OBP2A and OBP2B genes across cancer types (ovarian, breast, uterine, prostate, melanoma, lung, and colorectal cancers).
 - Integration of SNV, CNA, and RNA-seq profiles.
 - Enrichment analysis using `clusterProfiler`, `fgsea`, and MSigDB.
 - Visualization using `ggplot2`, `ComplexHeatmap`, and more.
