@@ -47,14 +47,14 @@ OBP-cancer/
 - R packages: `tidyverse`, `clusterProfiler`, `fgsea`, `org.Hs.eg.db`, `ggplot2`, `data.table`, `ComplexHeatmap`
 - Optional: `Python ≥ 3.10` for cross-platform processing or plotting
 
-## 1️⃣ To install R packages:
+### 1️⃣ To install R packages:
 
 ```r
 install.packages(c("tidyverse", "data.table", "ggplot2"))
 BiocManager::install(c("clusterProfiler", "fgsea", "org.Hs.eg.db", "ComplexHeatmap"))
 ``` 
 
-## 2️⃣ Clone the repo:
+### 2️⃣ Clone the repo:
 ```r
 git clone https://github.com/yourusername/OBP-cancer.git
 cd OBP-cancer
@@ -62,7 +62,7 @@ cd OBP-cancer
 
 
 ---
-🧪 Chemical Sense Linked Figures Overview
+## 🧪 Chemical Sense Linked Figures Overview
 
 This section provides an overview of key figures generated from chemical sense-related data analysis, including CIBRA results, differential gene expression (DGE) analysis, and visual summaries using boxplots and oncoplots.
 
