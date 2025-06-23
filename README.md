@@ -58,9 +58,9 @@ cd OBP-cancer
 
 
 ---
-## 🧪 Chemical Sense Linked Figures Overview
+## 🧪 Linked Figures in Publication
 
-This section provides an overview of key figures generated from chemical sense-related data analysis, including CIBRA results, differential gene expression (DGE) analysis, and visual summaries using boxplots and oncoplots.
+This section provides an overview of key figures generated with analysis use related data, including CIBRA results, differential gene expression (DGE) analysis, and visual summaries using boxplots and oncoplots.
 
 
 | 📊 CIBRA                     | 🔬 DGE_analysis                  | 📦 Boxplots                     | 🧬 Oncoplots                    |  
