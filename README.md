@@ -52,7 +52,7 @@ BiocManager::install(c("clusterProfiler", "fgsea", "org.Hs.eg.db", "ComplexHeatm
 
 ### 2️⃣ Clone the repo:
 ```r
-git clone https://github.com/yourusername/OBP-cancer.git
+git clone https://github.com/CMFTIME7/OBP-cancer.git
 cd OBP-cancer
 ```
 
