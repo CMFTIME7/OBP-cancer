@@ -65,7 +65,7 @@ This section provides an overview of key figures generated with analysis use rel
 
 | 📊 CIBRA                     | 🔬 DGE_analysis                  | 📦 Boxplots                     | 🧬 Oncoplots                    |  
 |------------------------------|----------------------------------|---------------------------------|---------------------------------|  
-| Overview of binding predictions and receptor interactions using the CIBRA algorithm. | Results of differential gene expression analysis across relevant tissue or cancer datasets. | Visual summaries of expression levels or scores across sample groups. | Mutational landscape highlighting key genes across sample groups. |  
+| Overview of genetic alternations and mutational profile using the CIBRA algorithm. | Results of differential gene expression analysis across relevant tissue or cancer datasets. | Visual summaries of expression levels or scores across sample groups. | Mutational landscape highlighting key genes across sample groups. |  
 | **Description:** Add insights into the method or figure interpretation. | **Description:** Mention conditions compared, tools used, or notable genes. | **Description:** Add which genes or metrics are being compared. | **Description:** Describe dataset used and how OBPs or related genes appear in cancer profiles. |
 
 ---
