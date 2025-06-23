@@ -68,6 +68,11 @@ This section provides an overview of key figures generated with analysis use rel
 | Overview of genetic alternations and mutational profile using the CIBRA algorithm. | Results of differential gene expression analysis across relevant tissue or cancer datasets. | Visual summaries of expression levels or scores across sample groups. | Mutational landscape highlighting key genes across sample groups. |  
 | **Description:** accurate for full overview of alterations that even have low frequency. | **Description:** related conditions compared, tools used, or notable genes. | **Description:** targeted genes and metrics are being compared. | **Description:** compare the normalized expression levels of OBP2A and OBP2B among WT, gain and loss. |
 
+
+---
+## Data download links
+Data rtrived from TCGA can be downloaded from cBioportal: https://www.cbioportal.org/
+
 ---
 ## Acknowledge
 Thanks so much for Soufyan helped with codes and analysis, appreciate Halima for offering ideas and perspectives as well as feedbacks for project design and Sanne for providing critical feedback, lots of gratidute for M.J. and V.M. performed the DGE analyses, the initial literature search and literature overview. And would like to thank Ximeng Wang and Liu Yang for their contributions within their literature overview and M.Sc. research project, respectively. M.C. would like to thank the Giract Flavor research program for a first year PhD bursary (application round 2025). H.M. and M.C. would like to thank the Chinese Scholarship Council for funds (personal PhD grant M.C.) and the Giract Foundation for a 1st year PhD fellowship (personal grant M.C.). H.M. would like to acknowledge the NWO grant. The authors acknowledge the SURFsara compute cluster hosted by SURF and the BAZIS research cluster hosted by VU for the computational time and the provided technical support.
