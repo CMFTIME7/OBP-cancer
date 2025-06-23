@@ -26,7 +26,7 @@ OBP-cancer/
 │ ├── visualization/
 │ ├── meta-analysis/
 ├── results/ # Output plots, tables, and figures
-├── notebooks/ # Optional Jupyter/Rmarkdown exploratory analysis
+├── notebooks/ # Rmarkdown exploratory analysis
 ├── docs/ # Documentation (setup, methods)
 ├── .github/ # GitHub-specific templates
 │ └── ISSUE_TEMPLATE.md
@@ -41,7 +41,7 @@ OBP-cancer/
 
 - R ≥ 4.3.1
 - R packages: `tidyverse`, `clusterProfiler`, `fgsea`, `org.Hs.eg.db`, `ggplot2`, `data.table`, `ComplexHeatmap`
-- Optional: `Python ≥ 3.10` for cross-platform processing or plotting
+- `Python ≥ 3.10` for cross-platform processing or plotting
 
 ### 1️⃣ To install R packages:
 
