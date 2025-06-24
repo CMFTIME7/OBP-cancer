@@ -70,7 +70,7 @@ This section provides an overview of key figures generated with analysis use rel
 
 
 ---
-## Data download links
+## Data download
 Data rtrived from TCGA can be downloaded from cBioportal: https://www.cbioportal.org/
 
 ---
