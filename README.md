@@ -46,8 +46,8 @@ OBP-cancer/
 ### 1️⃣ To install R packages:
 
 ```r
-install.packages(c("tidyverse", "data.table", "ggplot2"))
-BiocManager::install(c("clusterProfiler", "fgsea", "org.Hs.eg.db", "ComplexHeatmap"))
+install.packages(c("data.table", "R.utils", "dplyr", "ggplot2", "gridExtra", "ggprism", "ggbeeswarm", "plyr", "tidyverse", "BiocManager"))
+BiocManager::install(c("CIBRA", "BiocParallel", "UCSCXenaTools", "limma", "edgeR", "DESeq2", "maftools"))
 ``` 
 
 ### 2️⃣ Clone the repo:
