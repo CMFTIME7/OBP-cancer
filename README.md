@@ -40,7 +40,7 @@ OBP-cancer/
 ## 🧰 Requirements
 
 - R ≥ 4.3.1
-- R packages: `tidyverse`, `clusterProfiler`, `fgsea`, `org.Hs.eg.db`, `ggplot2`, `data.table`, `ComplexHeatmap`
+- R packages: `CIBRA`, `DESeq2`, `ggprism`, `maftools`
 - `Python ≥ 3.10` for cross-platform processing or plotting
 
 ### 1️⃣ To install R packages:
