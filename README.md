@@ -46,8 +46,8 @@ OBP-cancer/
 ### 1️⃣ To install R packages:
 
 ```r
-install.packages(c("data.table", "R.utils", "dplyr", "ggplot2", "gridExtra", "ggprism", "ggbeeswarm", "plyr", "tidyverse", "BiocManager"))
-BiocManager::install(c("CIBRA", "BiocParallel", "UCSCXenaTools", "limma", "edgeR", "DESeq2", "maftools"))
+install.packages(c("data.table", "R.utils", "dplyr", "ggplot2", "gridExtra", "ggprism", "ggbeeswarm", "plyr", "tidyverse", "scales", "gtable", "ggalt", "BiocManager"))
+BiocManager::install(c("CIBRA", "BiocParallel", "UCSCXenaTools", "limma", "edgeR", "DESeq2", "maftools", "EnhancedVolcano"))
 ``` 
 
 ### 2️⃣ Clone the repo:
