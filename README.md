@@ -88,11 +88,6 @@ The schematic overview of the meta-analysis approach using research questions fr
 ![The schematic overview of the meta-analysis approach using research questions from the structured literature overview. ](OBP-cancer-workflow.png)
 
 ---
-## Outlook
-
-Consider future perspectives onto pathway analysis use `clusterProfiler::GSEA()` and binding assays in molecular dyncamics simulations and experimental validations.
-
----
 ## Contact
 
 For questions, suggestions, or collaboration:
