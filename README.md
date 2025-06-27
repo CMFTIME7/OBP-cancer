@@ -40,7 +40,11 @@ OBP-cancer/
 
 <pre> <code>OBP-cancer/ ├── data/ # Processed input data from TCGA (SNV, CNA, RNA) ├── scripts/ # Analysis scripts in R │ ├── visualization/ │ └── meta-analysis/ ├── results/ # Output plots, tables, and figures ├── notebooks/ # Rmarkdown exploratory analysis ├── docs/ # Documentation (setup, methods) ├── .github/ # GitHub-specific templates │ └── ISSUE_TEMPLATE.md ├── LICENSE ├── README.md └── CITATION.cff </code> </pre>
 
-<pre lang="text"> ``` OBP-cancer/ ├── data/ # Processed input data from TCGA (SNV, CNA, RNA) ├── scripts/ # Analysis scripts in R │ ├── visualization/ │ └── meta-analysis/ ├── results/ # Output plots, tables, and figures ├── notebooks/ # Rmarkdown exploratory analysis ├── docs/ # Documentation (setup, methods) ├── .github/ # GitHub-specific templates │ └── ISSUE_TEMPLATE.md ├── LICENSE ├── README.md └── CITATION.cff ``` </pre>
+<pre lang="text"> 
+  ``` 
+  OBP-cancer/ ├── data/ # Processed input data from TCGA (SNV, CNA, RNA) ├── scripts/ # Analysis scripts in R │ ├── visualization/ │ └── meta-analysis/ ├── results/ # Output plots, tables, and figures ├── notebooks/ # Rmarkdown exploratory analysis ├── docs/ # Documentation (setup, methods) ├── .github/ # GitHub-specific templates │ └── ISSUE_TEMPLATE.md ├── LICENSE ├── README.md └── CITATION.cff 
+  ``` 
+</pre>
 
 ---
 
