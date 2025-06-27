@@ -78,5 +78,9 @@ This section provides an overview of key figures generated with analysis use rel
 Data rtrived from TCGA can be downloaded from cBioportal: https://www.cbioportal.org/
 
 ---
+## Workflow
+![The schematic overview of the meta-analysis approach using research questions from the structured literature overview. ](OBP-cancer-workflow.png)
+
+---
 ## Acknowledge
 Thanks so much for Soufyan helped with codes and analysis, appreciate Halima for offering ideas and perspectives as well as feedbacks for project design and Sanne for providing critical feedback, lots of gratidute for M.J. and V.M. performed the DGE analyses, the initial literature search and literature overview. And would like to thank Ximeng Wang and Liu Yang for their contributions within their literature overview and M.Sc. research project, respectively. M.C. would like to thank the Giract Flavor research program for a first year PhD bursary (application round 2025). H.M. and M.C. would like to thank the Chinese Scholarship Council for funds (personal PhD grant M.C.) and the Giract Foundation for a 1st year PhD fellowship (personal grant M.C.). H.M. would like to acknowledge the NWO grant. The authors acknowledge the SURFsara compute cluster hosted by SURF and the BAZIS research cluster hosted by VU for the computational time and the provided technical support.
