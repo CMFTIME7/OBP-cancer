@@ -81,6 +81,7 @@ Databasese used: HPA (https://www.proteinatlas.org/),  PaxDB (https://pax-db.org
 
 ---
 ## Workflow - metaanalysis
+The schematic overview of the meta-analysis approach using research questions from the structured literature overview
 ![The schematic overview of the meta-analysis approach using research questions from the structured literature overview. ](OBP-cancer-workflow.png)
 
 ---
