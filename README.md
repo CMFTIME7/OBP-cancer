@@ -77,6 +77,8 @@ This section provides an overview of key figures generated with analysis use rel
 ## Data download
 Data rtrived from TCGA can be downloaded from cBioportal: https://www.cbioportal.org/
 
+Databasese used: HPA (https://www.proteinatlas.org/),  PaxDB (https://pax-db.org/), GTEx (https://www.gtexportal.org/home/), NCI - PDC (https://proteomic.datacommons.cancer.gov/pdc/), TCGA (https://www.cancer.gov/ccg/research/genome-sequencing/tcga), cBioportal (https://www.cbioportal.org/), Uniprot (https://www.uniprot.org/), RCS - PDB (https://www.rcsb.org/)
+
 ---
 ## Workflow - metaanalysis
 ![The schematic overview of the meta-analysis approach using research questions from the structured literature overview. ](OBP-cancer-workflow.png)
