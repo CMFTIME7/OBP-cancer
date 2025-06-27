@@ -78,7 +78,7 @@ This section provides an overview of key figures generated with analysis use rel
 Data rtrived from TCGA can be downloaded from cBioportal: https://www.cbioportal.org/
 
 ---
-## Workflow
+## Workflow - metaanalysis
 ![The schematic overview of the meta-analysis approach using research questions from the structured literature overview. ](OBP-cancer-workflow.png)
 
 ---
