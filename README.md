@@ -1,4 +1,4 @@
-# OBP-cancer
+# Beyond Olfaction: New Insights into Human Odorant Binding Proteins 
 
 A computational and molecular analysis of OBP2A and OBP2B gene and protein expression in cancer, integrating TCGA datasets, mutation profiles, differential gene expression analysis (DGE), and Computational Identification of Biologically Relevant Alterations (CIBRA). This project investigates the functional relevance of odorant-binding proteins in oncology.
 
