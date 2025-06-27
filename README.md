@@ -16,6 +16,10 @@ This repository includes code and data for:
 - Visualization using `ggplot2`, `maftools`, `EnhancedVolcano`, `ComplexHeatmap`, and more.
 - Outputs of oncoplots, boxplots, DGE and CIBRA analysis results.
 
+Key words: 
+OBP2A, OBP2B, Lipocalin superfamily, Olfactory sense, Hydrophobic ligand transport, Protein function and classification, Differential gene expression
+
+
 ---
 
 ## 📁 Repository Structure
