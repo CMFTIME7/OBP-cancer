@@ -98,3 +98,4 @@ Consider future perspectives onto pathway analysis use `clusterProfiler::GSEA()`
 For questions, suggestions, or collaboration:
 
 📧 Email: [c.chenmifen@vu.nl](mailto:your.email@example.com)  
+📧 Corresponding author email: [h.mouhib@vu.nl](mailto:your.email@example.com)  
