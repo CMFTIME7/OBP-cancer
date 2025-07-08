@@ -35,7 +35,7 @@ OBP-cancer/
 ├── results/              # Output plots, tables, and figures
 ├── notebooks/            # Rmarkdown exploratory analysis
 ├── docs/                 # Documentation (setup, methods)
-├── .github/              # GitHub-specific templates
+├── .github/             
 │   └── ISSUE_TEMPLATE.md
 ├── LICENSE
 ├── README.md
