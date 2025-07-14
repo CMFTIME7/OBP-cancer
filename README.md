@@ -65,7 +65,7 @@ cd OBP-cancer
 
 
 ---
-## 🧪 Analysis
+## 🪜 Analysis
 
 This section provides an overview of key figures generated with analysis use related data, including CIBRA results, differential gene expression (DGE) analysis, and visual summaries using boxplots and oncoplots.
 
