@@ -72,7 +72,7 @@ This section provides an overview of key figures generated with analysis use rel
 
 | 📉 CIBRA                     | 🧠 DGE_analysis                  | 🎲 Boxplots                     | 🧬 Oncoplots                    |  
 |------------------------------|----------------------------------|---------------------------------|---------------------------------|  
-| Overview of genetic alternations and mutational profile using the CIBRA algorithm. | Results of differential gene expression analysis across relevant tissue or cancer datasets. | Visual summaries of expression levels or scores across sample groups. | Mutational landscape highlighting key genes across sample groups. |  
+| Overview of genetic alternations and mutational profile using the CIBRA algorithm (Github instruction: https://github.com/AIT4LIFE-UU/CIBRA). | Results of differential gene expression analysis across relevant tissue or cancer datasets. | Visual summaries of expression levels or scores across sample groups. | Mutational landscape highlighting key genes across sample groups. |  
 | **Description:** accurate for full overview of alterations that even have low frequency. | **Description:** related conditions compared, notable genes included and visualized using volvano plots. | **Description:** targeted genes and metrics are being compared. | **Description:** compare the normalized expression levels of OBP2A and OBP2B among WT, gain and loss. |
 
 
