@@ -2,7 +2,7 @@
 
 A computational and molecular analysis of OBP2A and OBP2B gene and protein expression in cancer, integrating codes to analysis TCGA datasets, mutation profiles, differential gene expression analysis (DGE), and Computational Identification of Biologically Relevant Alterations (CIBRA). This project investigates the functional relevance of odorant-binding proteins in oncology.
 
-Refer  to publication in Chemical Sense: M. Chen _et al_, _“Beyond Olfaction: New insights into odorant binding proteins ” : https://doi.org/10.48550/arXiv.2507.03794.
+Refer  to publication in Protein Science: M. Chen _et al_, _“Beyond Olfaction: New insights into odorant binding proteins ” : https://doi.org/10.48550/arXiv.2507.03794.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Data Source: TCGA](https://img.shields.io/badge/Data-TCGA-blue)](https://www.cancer.gov/tcga)
