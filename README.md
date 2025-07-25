@@ -80,7 +80,7 @@ This section provides an overview of key figures generated with analysis use rel
 ## Data 
 Data retrived from TCGA can be downloaded from platform cBioportal: https://www.cbioportal.org/
 
-**Databases Used**
+**Databases Used:**
 - [**Human Protein Atlas (HPA)**](https://www.proteinatlas.org/)
 - [**PaxDB – Protein Abundance Database**](https://pax-db.org/)
 - [**GTEx – Genotype-Tissue Expression Project**](https://www.gtexportal.org/home/)
