@@ -78,9 +78,18 @@ This section provides an overview of key figures generated with analysis use rel
 
 ---
 ## Data 
-Data retrived from TCGA can be downloaded from cBioportal: https://www.cbioportal.org/
+Data retrived from TCGA can be downloaded from platform cBioportal: https://www.cbioportal.org/
 
-Databases used: HPA (https://www.proteinatlas.org/),  PaxDB (https://pax-db.org/), GTEx (https://www.gtexportal.org/home/), NCI - PDC (https://proteomic.datacommons.cancer.gov/pdc/), TCGA (https://www.cancer.gov/ccg/research/genome-sequencing/tcga), UCSC Toil Recompute Compendium (https://xenabrowser.net/datapages/), cBioportal (https://www.cbioportal.org/), Uniprot (https://www.uniprot.org/), RCS - PDB (https://www.rcsb.org/)
+**Databases Used**
+- [**Human Protein Atlas (HPA)**](https://www.proteinatlas.org/)
+- [**PaxDB – Protein Abundance Database**](https://pax-db.org/)
+- [**GTEx – Genotype-Tissue Expression Project**](https://www.gtexportal.org/home/)
+- [**NCI Proteomic Data Commons (PDC)**](https://proteomic.datacommons.cancer.gov/pdc/)
+- [**TCGA – The Cancer Genome Atlas**](https://www.cancer.gov/ccg/research/genome-sequencing/tcga)
+- [**UCSC Toil Recompute Compendium**](https://xenabrowser.net/datapages/)
+- [**cBioPortal for Cancer Genomics**](https://www.cbioportal.org/)
+- [**UniProt – Universal Protein Resource**](https://www.uniprot.org/)
+- [**RCSB PDB – Protein Data Bank**](https://www.rcsb.org/)
 
 ---
 ## Workflow 
